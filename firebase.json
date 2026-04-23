@@ -1,0 +1,36 @@
+{
+  "hosting": {
+    "public": "build",
+    "ignore": [
+      "firebase.json",
+      ".firebaseignore",
+      "**/.*",
+      "**/node_modules/**",
+      "downloads/**",
+      "temp/**",
+      "**/*.exe",
+      "**/*.zip",
+      "**/*.rar",
+      "**/*.dmg",
+      "**/*.msi",
+      "**/*.txt"
+    ],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ],
+    "headers": [
+      {
+        "source": "**/*.@(jpg|jpeg|gif|png|svg|webp|ico|json|mp4|webm|css|js)",
+        "headers": [
+          {
+            "key": "Cache-Control",
+            "value": "max-age=31536000"
+          }
+        ]
+      }
+    ]
+  }
+}

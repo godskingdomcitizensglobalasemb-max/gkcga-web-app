@@ -1,0 +1,4 @@
+# Ignore Downloads folders anywhere
+**/Downloads/**
+**/downloads/**
+**/flutter_*/
