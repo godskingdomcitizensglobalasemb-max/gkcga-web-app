@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 # GKCGA Platform
 
 A comprehensive web application for GKCGA organization with user authentication, admin dashboard, event management, mentorship programs, and payment integration.
@@ -118,3 +119,6 @@ yarn start
 # gkcga
 church movement
 >>>>>>> 8c261d7a95bc57aeecc14da95381c3461e70c5b4
+=======
+# gkcga-web
+>>>>>>> ed6d696b97736405bcfcf874093e5a5b7b8eb0b7
